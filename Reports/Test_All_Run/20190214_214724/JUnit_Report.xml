@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_All_Run" time="53" tests="4" failures="0" errors="0">
+   <testsuite name="Test_All_Run" tests="4" failures="0" errors="0" time="53" timestamp="2019-02-14 21:47:27" hostname="MACG37WHF1QSDB - 192.168.3.104" id="Test Suites/Test_All_Run">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/MACG37WHF1QSDB/Documents/shoppe_test/gist_test_shopee/Reports/Test_All_Run/20190214_214724"/>
+         <property name="logFiles" value="/Users/MACG37WHF1QSDB/Documents/shoppe_test/gist_test_shopee/Reports/Test_All_Run/20190214_214724/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MACG37WHF1QSDB - 192.168.3.104"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.3.104"/>
+         <property name="sessionId" value="d653e0d35fbdaf8afea096028918059a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/create_a_public_gist" classname="Test Cases/create_a_public_gist" status="PASSED">
+         <system-out><![CDATA[2019-02-14 21:47:27 - [TEST_CASE][PASSED] - Test Cases/create_a_public_gist: Test Cases/create_a_public_gist
+
+2019-02-14 21:47:27 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-14 21:47:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 21:47:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-14 21:47:27 - [TEST_STEP][PASSED] - openBrowser(url): Browser is opened with url: 'https://gist.github.com/'
+
+2019-02-14 21:47:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-14 21:47:28 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-14 21:47:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://gist.github.com/'
+
+2019-02-14 21:47:33 - [TEST_STEP][PASSED] - click(findTestObject("dashboard/new_gist_button")): Object: 'Object Repository/dashboard/new_gist_button' is clicked on
+
+2019-02-14 21:47:52 - [MESSAGE][PASSED] - Object: 'Object Repository/dashboard/new_gist_button' is clicked on
+
+2019-02-14 21:47:52 - [TEST_STEP][PASSED] - setText(findTestObject("create_gist_file/create_gist"), "Test Create New Gist"): Text 'Test Create New Gist' is set on object 'Object Repository/create_gist_file/create_gist'
+
+2019-02-14 21:47:52 - [MESSAGE][PASSED] - Text 'Test Create New Gist' is set on object 'Object Repository/create_gist_file/create_gist'
+
+2019-02-14 21:47:52 - [TEST_STEP][PASSED] - setText(findTestObject("create_gist_file/gist_description_field"), "Hallo Semua saya Eko Adi Prabowo"): Text 'Hallo Semua saya Eko Adi Prabowo' is set on object 'Object Repository/create_gist_file/gist_description_field'
+
+2019-02-14 21:47:52 - [MESSAGE][PASSED] - Text 'Hallo Semua saya Eko Adi Prabowo' is set on object 'Object Repository/create_gist_file/gist_description_field'
+
+2019-02-14 21:47:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-14 21:47:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-14 21:47:57 - [TEST_STEP][PASSED] - click(findTestObject("create_gist_file/public_gist_button")): Object: 'Object Repository/create_gist_file/public_gist_button' is clicked on
+
+2019-02-14 21:48:00 - [MESSAGE][PASSED] - Object: 'Object Repository/create_gist_file/public_gist_button' is clicked on
+
+2019-02-14 21:48:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-14 21:48:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - verifyTextPresent("Test Create New Gist", false): Text 'Test Create New Gist' is present on page 
+
+2019-02-14 21:48:05 - [MESSAGE][PASSED] - Text 'Test Create New Gist' is present on page 
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - verifyTextPresent("Hallo Semua saya Eko Adi Prabowo", false): Text 'Hallo Semua saya Eko Adi Prabowo' is present on page 
+
+2019-02-14 21:48:05 - [MESSAGE][PASSED] - Text 'Hallo Semua saya Eko Adi Prabowo' is present on page 
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/edit_existing_gist" classname="Test Cases/edit_existing_gist" status="PASSED">
+         <system-out><![CDATA[2019-02-14 21:48:05 - [TEST_CASE][PASSED] - Test Cases/edit_existing_gist: Test Cases/edit_existing_gist
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-14 21:48:05 - [TEST_STEP][PASSED] - click(findTestObject("edit_gist_file/edit_gist_button")): Object: 'Object Repository/edit_gist_file/edit_gist_button' is clicked on
+
+2019-02-14 21:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/edit_gist_file/edit_gist_button' is clicked on
+
+2019-02-14 21:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("create_gist_file/gist_description_field"), "Buang Sampah Pada tempatnya"): Text 'Buang Sampah Pada tempatnya' is set on object 'Object Repository/create_gist_file/gist_description_field'
+
+2019-02-14 21:48:06 - [MESSAGE][PASSED] - Text 'Buang Sampah Pada tempatnya' is set on object 'Object Repository/create_gist_file/gist_description_field'
+
+2019-02-14 21:48:06 - [TEST_STEP][PASSED] - setText(findTestObject("create_gist_file/create_gist"), "Sayang Mamah Papah"): Text 'Sayang Mamah Papah' is set on object 'Object Repository/create_gist_file/create_gist'
+
+2019-02-14 21:48:07 - [MESSAGE][PASSED] - Text 'Sayang Mamah Papah' is set on object 'Object Repository/create_gist_file/create_gist'
+
+2019-02-14 21:48:07 - [TEST_STEP][PASSED] - click(findTestObject("edit_gist_file/update_button")): Object: 'Object Repository/edit_gist_file/update_button' is clicked on
+
+2019-02-14 21:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/edit_gist_file/update_button' is clicked on
+
+2019-02-14 21:48:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-14 21:48:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-14 21:48:13 - [TEST_STEP][PASSED] - verifyTextPresent("Buang Sampah Pada tempatnya", false): Text 'Buang Sampah Pada tempatnya' is present on page 
+
+2019-02-14 21:48:14 - [MESSAGE][PASSED] - Text 'Buang Sampah Pada tempatnya' is present on page 
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - verifyTextPresent("Sayang Mamah Papah", false): Text 'Sayang Mamah Papah' is present on page 
+
+2019-02-14 21:48:14 - [MESSAGE][PASSED] - Text 'Sayang Mamah Papah' is present on page 
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/delete_an_existing_gist" classname="Test Cases/delete_an_existing_gist" status="PASSED">
+         <system-out><![CDATA[2019-02-14 21:48:14 - [TEST_CASE][PASSED] - Test Cases/delete_an_existing_gist: Test Cases/delete_an_existing_gist
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - click(findTestObject("delete_gist_file/delete_button")): Object: 'Object Repository/delete_gist_file/delete_button' is clicked on
+
+2019-02-14 21:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/delete_gist_file/delete_button' is clicked on
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-02-14 21:48:14 - [MESSAGE][PASSED] - Alert accepted
+
+2019-02-14 21:48:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-14 21:48:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - verifyTextPresent("You don’t have any gists yet.", false): Text 'You don’t have any gists yet.' is present on page 
+
+2019-02-14 21:48:19 - [MESSAGE][PASSED] - Text 'You don’t have any gists yet.' is present on page 
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/see_my_list_of_gists" classname="Test Cases/see_my_list_of_gists" status="PASSED">
+         <system-out><![CDATA[2019-02-14 21:48:19 - [TEST_CASE][PASSED] - Test Cases/see_my_list_of_gists: Test Cases/see_my_list_of_gists
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - click(findTestObject("list_my_gist_file/avatar_button")): Object: 'Object Repository/list_my_gist_file/avatar_button' is clicked on
+
+2019-02-14 21:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/list_my_gist_file/avatar_button' is clicked on
+
+2019-02-14 21:48:19 - [TEST_STEP][PASSED] - click(findTestObject("list_my_gist_file/your_gist_text")): Object: 'Object Repository/list_my_gist_file/your_gist_text' is clicked on
+
+2019-02-14 21:48:20 - [MESSAGE][PASSED] - Object: 'Object Repository/list_my_gist_file/your_gist_text' is clicked on
+
+2019-02-14 21:48:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("list_my_gist_file/your_gist_text"), 0): Object 'Object Repository/list_my_gist_file/your_gist_text' is present
+
+2019-02-14 21:48:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-02-14 21:48:20 - [MESSAGE][PASSED] - Object 'Object Repository/list_my_gist_file/your_gist_text' is present
+
+2019-02-14 21:48:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-02-14 21:48:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-02-14 21:48:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-14 21:47:27 - [TEST_SUITE][PASSED] - Test_All_Run: Test Cases/see_my_list_of_gists]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

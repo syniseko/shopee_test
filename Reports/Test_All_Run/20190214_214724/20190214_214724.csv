@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test_All_Run,Chrome 71.0.3578.98,,2019-02-14 21:47:27,2019-02-14 21:48:20,53.883s,PASSED
+,,,,,,
+Test Cases/create_a_public_gist,Chrome 71.0.3578.98,,2019-02-14 21:47:27,2019-02-14 21:48:05,38.214s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-14 21:47:27,2019-02-14 21:47:27,0.008s,PASSED
+openBrowser(url),Chrome 71.0.3578.98,,2019-02-14 21:47:27,2019-02-14 21:47:33,5.970s,PASSED
+"click(findTestObject(""dashboard/new_gist_button""))",Chrome 71.0.3578.98,,2019-02-14 21:47:33,2019-02-14 21:47:52,18.499s,PASSED
+"setText(findTestObject(""create_gist_file/create_gist""), ""Test Create New Gist"")",Chrome 71.0.3578.98,,2019-02-14 21:47:52,2019-02-14 21:47:52,0.242s,PASSED
+"setText(findTestObject(""create_gist_file/gist_description_field""), ""Hallo Semua saya Eko Adi Prabowo"")",Chrome 71.0.3578.98,,2019-02-14 21:47:52,2019-02-14 21:47:52,0.253s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-14 21:47:52,2019-02-14 21:47:57,5.044s,PASSED
+"click(findTestObject(""create_gist_file/public_gist_button""))",Chrome 71.0.3578.98,,2019-02-14 21:47:57,2019-02-14 21:48:00,2.562s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-14 21:48:00,2019-02-14 21:48:05,5.005s,PASSED
+"verifyTextPresent(""Test Create New Gist"", false)",Chrome 71.0.3578.98,,2019-02-14 21:48:05,2019-02-14 21:48:05,0.176s,PASSED
+"verifyTextPresent(""Hallo Semua saya Eko Adi Prabowo"", false)",Chrome 71.0.3578.98,,2019-02-14 21:48:05,2019-02-14 21:48:05,0.136s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-14 21:48:05,2019-02-14 21:48:05,0.004s,PASSED
+,,,,,,
+Test Cases/edit_existing_gist,Chrome 71.0.3578.98,,2019-02-14 21:48:05,2019-02-14 21:48:14,8.510s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-14 21:48:05,2019-02-14 21:48:05,0.008s,PASSED
+"click(findTestObject(""edit_gist_file/edit_gist_button""))",Chrome 71.0.3578.98,,2019-02-14 21:48:05,2019-02-14 21:48:06,0.730s,PASSED
+"setText(findTestObject(""create_gist_file/gist_description_field""), ""Buang Sampah Pada tempatnya"")",Chrome 71.0.3578.98,,2019-02-14 21:48:06,2019-02-14 21:48:06,0.249s,PASSED
+"setText(findTestObject(""create_gist_file/create_gist""), ""Sayang Mamah Papah"")",Chrome 71.0.3578.98,,2019-02-14 21:48:06,2019-02-14 21:48:07,0.238s,PASSED
+"click(findTestObject(""edit_gist_file/update_button""))",Chrome 71.0.3578.98,,2019-02-14 21:48:07,2019-02-14 21:48:08,1.844s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-14 21:48:08,2019-02-14 21:48:13,5.003s,PASSED
+"verifyTextPresent(""Buang Sampah Pada tempatnya"", false)",Chrome 71.0.3578.98,,2019-02-14 21:48:13,2019-02-14 21:48:14,0.123s,PASSED
+"verifyTextPresent(""Sayang Mamah Papah"", false)",Chrome 71.0.3578.98,,2019-02-14 21:48:14,2019-02-14 21:48:14,0.128s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-14 21:48:14,2019-02-14 21:48:14,0.001s,PASSED
+,,,,,,
+Test Cases/delete_an_existing_gist,Chrome 71.0.3578.98,,2019-02-14 21:48:14,2019-02-14 21:48:19,5.368s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-14 21:48:14,2019-02-14 21:48:14,0.002s,PASSED
+"click(findTestObject(""delete_gist_file/delete_button""))",Chrome 71.0.3578.98,,2019-02-14 21:48:14,2019-02-14 21:48:14,0.144s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-02-14 21:48:14,2019-02-14 21:48:14,0.041s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-02-14 21:48:14,2019-02-14 21:48:19,5.007s,PASSED
+"verifyTextPresent(""You don’t have any gists yet."", false)",Chrome 71.0.3578.98,,2019-02-14 21:48:19,2019-02-14 21:48:19,0.065s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-14 21:48:19,2019-02-14 21:48:19,0.003s,PASSED
+,,,,,,
+Test Cases/see_my_list_of_gists,Chrome 71.0.3578.98,,2019-02-14 21:48:19,2019-02-14 21:48:20,1.159s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 71.0.3578.98,,2019-02-14 21:48:19,2019-02-14 21:48:19,0.002s,PASSED
+"click(findTestObject(""list_my_gist_file/avatar_button""))",Chrome 71.0.3578.98,,2019-02-14 21:48:19,2019-02-14 21:48:19,0.076s,PASSED
+"click(findTestObject(""list_my_gist_file/your_gist_text""))",Chrome 71.0.3578.98,,2019-02-14 21:48:19,2019-02-14 21:48:20,0.895s,PASSED
+"verifyElementPresent(findTestObject(""list_my_gist_file/your_gist_text""), 0)",Chrome 71.0.3578.98,,2019-02-14 21:48:20,2019-02-14 21:48:20,0.055s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-02-14 21:48:20,2019-02-14 21:48:20,0.002s,PASSED
